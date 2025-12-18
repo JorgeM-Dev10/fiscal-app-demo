@@ -183,26 +183,26 @@ export default function CFDIEmitidoDetailPage() {
                     <div className="pl-4 space-y-1 mt-1">
                       <div>
                         <span className="text-green-600">Version</span>
-                        <span className="text-gray-600">="4.0"</span>
+                        <span className="text-gray-600">=&quot;4.0&quot;</span>
                       </div>
                       <div>
                         <span className="text-green-600">Fecha</span>
-                        <span className="text-gray-600">="{cfdi.fecha}"</span>
+                        <span className="text-gray-600">=&quot;{cfdi.fecha}&quot;</span>
                       </div>
                       <div>
                         <span className="text-green-600">Total</span>
-                        <span className="text-gray-600">="{cfdi.total}"</span>
+                        <span className="text-gray-600">=&quot;{cfdi.total}&quot;</span>
                       </div>
                       <div className="pl-2">
                         <span className="text-blue-600">{"<cfdi:Emisor>"}</span>
                         <div className="pl-4">
                           <div>
                             <span className="text-green-600">Rfc</span>
-                            <span className="text-gray-600">="{cfdi.cliente.rfc}"</span>
+                            <span className="text-gray-600">=&quot;{cfdi.cliente.rfc}&quot;</span>
                           </div>
                           <div>
                             <span className="text-green-600">Nombre</span>
-                            <span className="text-gray-600">="{cfdi.cliente.razonSocial}"</span>
+                            <span className="text-gray-600">=&quot;{cfdi.cliente.razonSocial}&quot;</span>
                           </div>
                         </div>
                         <span className="text-blue-600">{"</cfdi:Emisor>"}</span>
